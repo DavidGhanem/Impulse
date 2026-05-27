@@ -17,11 +17,11 @@ const contactLinks = [
 const socialLinks = [
   { href: "https://facebook.com/[YourPage]", label: "Facebook", icon: "f" },
   {
-    href: "https://instagram.com/[YourHandle]",
+    href: "https://instagram.com/impulse_leb",
     label: "Instagram",
     icon: "ig",
   },
-  { href: "https://tiktok.com/@[YourHandle]", label: "TikTok", icon: "tt" },
+  { href: "https://tiktok.com/@impulselb", label: "TikTok", icon: "tt" },
 ];
 
 const SocialIcon = ({ type }) => {
