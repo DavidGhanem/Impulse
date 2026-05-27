@@ -1,0 +1,196 @@
+/* ── Reset & Box Model ─────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Prevent horizontal overflow everywhere ────────────────── */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img,
+video,
+canvas,
+iframe,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* ── CSS Variables ─────────────────────────────────────────── */
+:root {
+  --black: #0a0a0a;
+  --near-black: #111111;
+  --dark: #1a1a1a;
+  --mid: #2a2a2a;
+  --border: rgba(255, 255, 255, 0.08);
+  --muted: rgba(255, 255, 255, 0.4);
+  --white: #ffffff;
+  --orange: #ff5a1f;
+  --orange-dark: #e04b14;
+  --orange-glow: rgba(255, 90, 31, 0.12);
+  --success: #22c55e;
+}
+
+/* ── Base ──────────────────────────────────────────────────── */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* ── Container ─────────────────────────────────────────────── */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ── Section typography ────────────────────────────────────── */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--orange);
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.section-body {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 560px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* ── Buttons ───────────────────────────────────────────────── */
+.btn-primary {
+  background: var(--orange);
+  color: var(--white);
+  border: none;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.1s,
+    box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--orange-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(255, 90, 31, 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* ── Scroll Reveal ─────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── Range Input ───────────────────────────────────────────── */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: var(--mid);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  min-width: 0;
+  width: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--orange);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(255, 90, 31, 0.4);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--orange);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}

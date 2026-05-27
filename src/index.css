@@ -1,0 +1,44 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  text-align: left;
+  min-height: 100svh;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: unset;
+  font-weight: unset;
+  letter-spacing: unset;
+  margin: unset;
+  color: unset;
+  line-height: unset;
+  font-family: unset;
+}
+
+p {
+  margin: unset;
+}
+* {
+  cursor: default;
+}
+
+a,
+button {
+  cursor: pointer;
+}
