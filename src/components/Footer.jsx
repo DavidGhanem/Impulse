@@ -262,7 +262,7 @@ export default function Footer() {
           gap: "0.5rem",
         }}
       >
-        <div>© 2025 GymSitePro · All rights reserved</div>
+        <div>© 2025 Impulse · All rights reserved</div>
         <div>Lebanon · Built for gym owners</div>
       </div>
 
