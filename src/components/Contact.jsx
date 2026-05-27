@@ -39,7 +39,7 @@ export default function Contact({ onSubmit }) {
   const handlePhone = (e) => {
     const digits = e.target.value.replace(/\D/g, "").slice(0, 8);
     let formatted = digits;
-    if (digits.length > 5) {
+    if (digits.length > 6) {
       formatted =
         digits.slice(0, 2) + " " + digits.slice(2, 5) + " " + digits.slice(5);
     } else if (digits.length > 2) {
@@ -185,7 +185,7 @@ export default function Contact({ onSubmit }) {
                     name="phone"
                     placeholder="XX XXX XXX"
                     required
-                    maxLength={9}
+                    maxLength={10}
                     style={inputStyle}
                     onChange={handlePhone}
                   />
