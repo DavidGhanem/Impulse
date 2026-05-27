@@ -108,7 +108,8 @@ export default function Footer() {
               marginBottom: "0.5rem",
             }}
           >
-            Gym<span style={{ color: "var(--orange)" }}>Site</span>Pro
+            <span style={{ color: "var(--white)" }}>Im</span>
+            <span style={{ color: "var(--orange)" }}>pulse</span>
           </div>
           <p
             style={{

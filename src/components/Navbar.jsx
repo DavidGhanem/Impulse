@@ -45,7 +45,8 @@ export default function Navbar({ onContactClick }) {
             letterSpacing: "-0.03em",
           }}
         >
-          Gym<span style={{ color: "var(--orange)" }}>Site</span>Pro
+          <span style={{ color: "var(--white)" }}>Im</span>
+          <span style={{ color: "var(--orange)" }}>pulse</span>
         </div>
 
         {/* Desktop Links */}
