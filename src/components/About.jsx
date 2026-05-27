@@ -173,7 +173,7 @@ export default function About() {
                   marginBottom: "0.4rem",
                 }}
               >
-                Zero upfront. 10% per member.
+                Zero upfront. 20% per member.
               </div>
               <div
                 style={{

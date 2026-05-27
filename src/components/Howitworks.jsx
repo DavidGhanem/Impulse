@@ -1,7 +1,7 @@
 const steps = [
   { num: '1', title: 'We Meet', desc: '15-minute call. You tell me about your gym — your prices, your classes, your vibe. That\'s it.' },
   { num: '2', title: 'I Build Your Site', desc: '3–5 pages, your branding, your classes, the impulse "Join Now" button. I handle hosting, SSL, payment processing — all of it.' },
-  { num: '3', title: 'You Get Members', desc: 'I give you a QR code decal for your window. Foot traffic scans and joins. You get paid. I get 10%. That\'s our whole relationship.' },
+  { num: '3', title: 'You Get Members', desc: 'I give you a QR code decal for your window. Foot traffic scans and joins. You get paid. I get 20%. That\'s our whole relationship.' },
 ];
 
 export default function HowItWorks() {

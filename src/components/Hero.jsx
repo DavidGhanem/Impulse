@@ -118,7 +118,7 @@ export default function Hero({ onContactClick }) {
             animation: "fadeUp 0.6s 0.2s ease both",
           }}
         >
-          I build websites that sell memberships. You pay 10% only when a member
+          I build websites that sell memberships. You pay 20% only when a member
           joins through the site. Zero risk. Zero monthly fees.
         </p>
 
@@ -150,7 +150,7 @@ export default function Hero({ onContactClick }) {
           {[
             ["0%", "Upfront Cost"],
             ["60s", "To Join Online"],
-            ["10%", "Commission Only"],
+            ["20%", "Commission Only"],
             ["30d", "Money-Back Guarantee"],
           ].map(([num, label]) => (
             <div key={label}>
