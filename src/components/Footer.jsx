@@ -15,7 +15,7 @@ const contactLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://facebook.com/[YourPage]", label: "Facebook", icon: "f" },
+  { href: "https://www.facebook.com/share/1CUbt9Ebdk", label: "Facebook", icon: "f" },
   {
     href: "https://instagram.com/impulse_leb",
     label: "Instagram",
