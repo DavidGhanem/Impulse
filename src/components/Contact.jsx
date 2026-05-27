@@ -18,11 +18,7 @@ export default function Contact({ onSubmit }) {
     setStatus("sending");
 
     try {
-      const emailjs =
-        await import("https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js");
-      const ejs = emailjs.default ?? window.emailjs;
-
-      await ejs.sendForm(
+      await window.emailjs.sendForm(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         formRef.current,
