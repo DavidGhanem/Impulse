@@ -37,7 +37,7 @@ svg {
   --orange-dark: #e04b14;
   --orange-glow: rgba(255, 90, 31, 0.12);
   --success: #22c55e;
-  color-scheme: dark;   /* ✅ changed from light → dark */
+  color-scheme: only dark; 
 }
 
 /* ── Base ──────────────────────────────────────────────────── */
