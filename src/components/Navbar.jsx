@@ -66,6 +66,7 @@ export default function Navbar({ onContactClick }) {
             ["pricing", "Pricing"],
             ["how-it-works", "How It Works"],
             ["about", "About"],
+            ["contact", "Contact"]
           ].map(([id, label]) => (
             <li key={id}>
               <a
