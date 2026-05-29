@@ -13,9 +13,13 @@ const contactLinks = [
     target: "_blank",
   },
 ];
-
+const activateSocials = false;
 const socialLinks = [
-  { href: "https://www.facebook.com/share/1CUbt9Ebdk", label: "Facebook", icon: "f" },
+  {
+    href: "https://www.facebook.com/share/1CUbt9Ebdk",
+    label: "Facebook",
+    icon: "f",
+  },
   {
     href: "https://instagram.com/impulse_leb",
     label: "Instagram",
@@ -211,40 +215,42 @@ export default function Footer() {
         </div>
 
         {/* Social */}
-        <div>
-          <h4
-            style={{
-              fontSize: "0.75rem",
-              textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              color: "var(--muted)",
-              marginBottom: "1rem",
-            }}
-          >
-            Follow
-          </h4>
-          <ul style={{ listStyle: "none" }}>
-            {socialLinks.map(({ href, label, icon }) => (
-              <li key={href} style={{ marginBottom: "0.6rem" }}>
-                <a
-                  href={href}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={linkStyle}
-                  onMouseEnter={(e) =>
-                    (e.currentTarget.style.color = "var(--orange)")
-                  }
-                  onMouseLeave={(e) =>
-                    (e.currentTarget.style.color = "rgba(255,255,255,0.5)")
-                  }
-                >
-                  <SocialIcon type={icon} />
-                  <span>{label}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {activateSocials ? (
+          <div>
+            <h4
+              style={{
+                fontSize: "0.75rem",
+                textTransform: "uppercase",
+                letterSpacing: "0.1em",
+                color: "var(--muted)",
+                marginBottom: "1rem",
+              }}
+            >
+              Follow
+            </h4>
+            <ul style={{ listStyle: "none" }}>
+              {socialLinks.map(({ href, label, icon }) => (
+                <li key={href} style={{ marginBottom: "0.6rem" }}>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={linkStyle}
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.color = "var(--orange)")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.color = "rgba(255,255,255,0.5)")
+                    }
+                  >
+                    <SocialIcon type={icon} />
+                    <span>{label}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
 
       <div
