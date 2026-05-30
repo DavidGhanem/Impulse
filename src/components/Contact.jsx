@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 
-const EMAILJS_SERVICE_ID = "service_uky6gaf";
-const EMAILJS_TEMPLATE_ID = "template_x0ukmoo";
-const EMAILJS_PUBLIC_KEY = "y_C597u2pkAU2zfZb";
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export default function Contact({ onSubmit }) {
   const formRef = useRef(null);
