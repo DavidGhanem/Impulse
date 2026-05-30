@@ -1,0 +1,51 @@
+<svg width="100%" viewBox="0 0 1210 640" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Impulse OG preview image</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Dark background with orange accent, lightning bolt logo, Impulse branding and tagline</desc>
+
+  <rect width="1200" height="630" fill="#0a0a0a" style="fill:rgb(10, 10, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Subtle grid texture -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="orangeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff5a1f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+  <mask id="imagine-text-gaps-1ujhol" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="1210" height="640" fill="white"/><rect x="96" y="250.23524475097656" width="473.70709228515625" height="112.30545043945312" fill="black" rx="2"/><rect x="96" y="391.8572998046875" width="376.7987365722656" height="35.74470138549805" fill="black" rx="2"/><rect x="94.1326675415039" y="429.8572998046875" width="277.91748046875" height="35.74470138549805" fill="black" rx="2"/><rect x="971.4232788085938" y="567.9286499023438" width="155.4955596923828" height="20.806018829345703" fill="black" rx="2"/></mask></defs>
+
+  <rect width="1200" height="630" fill="url(#grid)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Orange glow top-left -->
+  <ellipse cx="200" cy="180" rx="400" ry="300" fill="url(#orangeGlow)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Decorative lines right side -->
+  <line x1="900" y1="0" x2="1200" y2="200" stroke="rgba(255,90,31,0.08)" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgba(255, 90, 31, 0.08);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="950" y1="0" x2="1200" y2="150" stroke="rgba(255,90,31,0.06)" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgba(255, 90, 31, 0.06);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="1000" y1="0" x2="1200" y2="100" stroke="rgba(255,90,31,0.04)" stroke-width="1" style="fill:rgb(0, 0, 0);stroke:rgba(255, 90, 31, 0.04);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="900" y1="630" x2="1200" y2="430" stroke="rgba(255,90,31,0.06)" stroke-width="1" mask="url(#imagine-text-gaps-1ujhol)" style="fill:rgb(0, 0, 0);stroke:rgba(255, 90, 31, 0.06);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="950" y1="630" x2="1200" y2="480" stroke="rgba(255,90,31,0.04)" stroke-width="1" mask="url(#imagine-text-gaps-1ujhol)" style="fill:rgb(0, 0, 0);stroke:rgba(255, 90, 31, 0.04);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Lightning bolt icon -->
+  <g transform="translate(100, 160)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <polygon points="52,0 20,56 44,56 40,110 76,46 52,46" fill="#ff5a1f" style="fill:rgb(255, 90, 31);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- IMPULSE wordmark -->
+  <text x="100" y="340" font-family="Georgia, serif" font-size="96" font-weight="700" fill="#ffffff" letter-spacing="-3" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:96px;font-weight:700;text-anchor:start;dominant-baseline:auto">IMPULSE</text>
+
+  <!-- Divider -->
+  <rect x="100" y="368" width="64" height="3" fill="#ff5a1f" rx="2" style="fill:rgb(255, 90, 31);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Tagline -->
+  <text x="100" y="420" font-family="Georgia, serif" font-size="28" fill="rgba(255,255,255,0.55)" letter-spacing="0.5" style="fill:rgba(255, 255, 255, 0.55);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:28px;font-weight:400;text-anchor:start;dominant-baseline:auto">Money walks past your door.</text>
+  <text x="100" y="458" font-family="Georgia, serif" font-size="28" fill="rgba(255,255,255,0.55)" letter-spacing="0.5" style="fill:rgba(255, 255, 255, 0.55);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:28px;font-weight:400;text-anchor:start;dominant-baseline:auto">We help you catch it.</text>
+
+  <!-- URL pill bottom right -->
+  <rect x="940" y="558" width="220" height="40" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1" style="fill:rgba(255, 255, 255, 0.05);stroke:rgba(255, 255, 255, 0.1);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="1050" y="583" font-family="Georgia, serif" font-size="15" fill="rgba(255,255,255,0.35)" text-anchor="middle" style="fill:rgba(255, 255, 255, 0.35);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">impulsegrowth.online</text>
+
+  <!-- Bottom orange accent line -->
+  <rect x="0" y="620" width="1200" height="4" fill="#ff5a1f" opacity="0.6" style="fill:rgb(255, 90, 31);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
