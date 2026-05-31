@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const contactLinks = [
   { href: "tel:+96103171726", label: "+961 03 171 726", icon: "📞" },
   { href: "tel:+96181239350", label: "+961 81 239 350", icon: "📞" },
@@ -13,7 +15,9 @@ const contactLinks = [
     target: "_blank",
   },
 ];
+
 const activateSocials = false;
+
 const socialLinks = [
   {
     href: "https://www.facebook.com/share/1CUbt9Ebdk",
@@ -253,6 +257,7 @@ export default function Footer() {
         ) : null}
       </div>
 
+      {/* Bottom bar */}
       <div
         style={{
           maxWidth: "1080px",
@@ -269,7 +274,37 @@ export default function Footer() {
         }}
       >
         <div>© 2025 Impulse · All rights reserved</div>
-        <div>Lebanon · Built for gym owners</div>
+        <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+          <Link
+            to="/terms"
+            style={{
+              color: "rgba(255,255,255,0.3)",
+              textDecoration: "none",
+              transition: "color 0.2s",
+            }}
+            onMouseEnter={(e) => (e.target.style.color = "var(--orange)")}
+            onMouseLeave={(e) =>
+              (e.target.style.color = "rgba(255,255,255,0.3)")
+            }
+          >
+            Terms & Conditions
+          </Link>
+          <Link
+            to="/privacy"
+            style={{
+              color: "rgba(255,255,255,0.3)",
+              textDecoration: "none",
+              transition: "color 0.2s",
+            }}
+            onMouseEnter={(e) => (e.target.style.color = "var(--orange)")}
+            onMouseLeave={(e) =>
+              (e.target.style.color = "rgba(255,255,255,0.3)")
+            }
+          >
+            Privacy Policy
+          </Link>
+          <span>Lebanon · Built for gym owners</span>
+        </div>
       </div>
 
       <style>{`
