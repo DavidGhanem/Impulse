@@ -1,3 +1,5 @@
+import BackButton from "../reusableComp/backbtn";
+
 export default function PrivacyPolicy() {
   const sections = [
     {
@@ -5,6 +7,7 @@ export default function PrivacyPolicy() {
       title: "Introduction",
       content: (
         <>
+          <BackButton />
           <p>
             Welcome to Impulse ("Provider," "we," "us," "our"). We respect your
             privacy and are committed to protecting your personal data. This

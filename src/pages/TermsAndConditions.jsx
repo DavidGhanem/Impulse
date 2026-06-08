@@ -1,3 +1,5 @@
+import BackButton from "../reusableComp/backbtn";
+
 export default function TermsAndConditions() {
   const sections = [
     {
@@ -411,6 +413,7 @@ export default function TermsAndConditions() {
 
   return (
     <>
+      <BackButton />
       <style>{`
         .tc-page {
           background: var(--black);

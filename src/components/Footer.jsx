@@ -92,6 +92,7 @@ export default function Footer() {
         width: "100%",
         overflowX: "hidden",
       }}
+      id="footer"
     >
       <div
         style={{
