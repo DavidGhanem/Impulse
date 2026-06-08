@@ -407,4 +407,379 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             padding-left: 0;
           }
         }
-      `}),(0,j.jsxs)(`div`,{className:`tc-page`,children:[(0,j.jsx)(`div`,{className:`tc-hero`,children:(0,j.jsxs)(`div`,{className:`tc-hero-inner`,children:[(0,j.jsx)(`div`,{className:`tc-label`,children:`Legal`}),(0,j.jsxs)(`h1`,{children:[`Terms & `,(0,j.jsx)(`span`,{children:`Conditions`})]}),(0,j.jsxs)(`div`,{className:`tc-meta`,children:[(0,j.jsxs)(`div`,{className:`tc-meta-item`,children:[`For`,(0,j.jsx)(`strong`,{children:`Impulse Websites`})]}),(0,j.jsxs)(`div`,{className:`tc-meta-item`,children:[`Last updated`,(0,j.jsx)(`strong`,{children:`January 6, 2026`})]})]})]})}),(0,j.jsxs)(`div`,{className:`tc-body`,children:[(0,j.jsxs)(`nav`,{className:`tc-nav`,children:[(0,j.jsx)(`p`,{className:`tc-nav-title`,children:`Contents`}),(0,j.jsx)(`ul`,{children:e.map(e=>(0,j.jsx)(`li`,{children:(0,j.jsxs)(`a`,{href:`#section-${e.number}`,children:[(0,j.jsx)(`span`,{className:`nav-num`,children:e.number}),e.title]})},e.number))})]}),(0,j.jsxs)(`div`,{className:`tc-sections`,children:[e.map(e=>(0,j.jsxs)(`div`,{className:`tc-section`,id:`section-${e.number}`,children:[(0,j.jsxs)(`div`,{className:`tc-section-header`,children:[(0,j.jsx)(`span`,{className:`tc-section-num`,children:e.number}),(0,j.jsx)(`h2`,{children:e.title})]}),(0,j.jsxs)(`div`,{className:`tc-section-content`,children:[e.content&&e.content,e.subsections&&e.subsections.map((e,t)=>(0,j.jsxs)(`div`,{className:`tc-subsection`,children:[(0,j.jsx)(`h3`,{children:e.title}),e.content&&(0,j.jsx)(`p`,{children:e.content}),e.intro&&(0,j.jsx)(`p`,{children:e.intro}),e.list&&(0,j.jsx)(`ul`,{children:e.list.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.notIntro&&(0,j.jsx)(`p`,{children:e.notIntro}),e.notList&&(0,j.jsx)(`ul`,{className:`list-not`,children:e.notList.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.extra&&(0,j.jsx)(`p`,{children:e.extra})]},t))]})]},e.number)),(0,j.jsx)(`div`,{className:`tc-acceptance`,children:(0,j.jsxs)(`p`,{children:[(0,j.jsx)(`strong`,{children:`Acceptance of Terms —`}),` By using our Site, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.`]})})]})]})]})]})}function br(){return(0,j.jsx)(`div`,{children:`PrivacyPolicy`})}function xr(){return(0,j.jsx)(Dn,{children:(0,j.jsxs)(zt,{children:[(0,j.jsx)(Lt,{path:`/`,element:(0,j.jsx)(vr,{})}),(0,j.jsx)(Lt,{path:`/terms`,element:(0,j.jsx)(yr,{})}),(0,j.jsx)(Lt,{path:`/privacy`,element:(0,j.jsx)(br,{})})]})})}(0,v.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(_.StrictMode,{children:(0,j.jsx)(xr,{})}));
+      `}),(0,j.jsxs)(`div`,{className:`tc-page`,children:[(0,j.jsx)(`div`,{className:`tc-hero`,children:(0,j.jsxs)(`div`,{className:`tc-hero-inner`,children:[(0,j.jsx)(`div`,{className:`tc-label`,children:`Legal`}),(0,j.jsxs)(`h1`,{children:[`Terms & `,(0,j.jsx)(`span`,{children:`Conditions`})]}),(0,j.jsxs)(`div`,{className:`tc-meta`,children:[(0,j.jsxs)(`div`,{className:`tc-meta-item`,children:[`For`,(0,j.jsx)(`strong`,{children:`Impulse Websites`})]}),(0,j.jsxs)(`div`,{className:`tc-meta-item`,children:[`Last updated`,(0,j.jsx)(`strong`,{children:`January 6, 2026`})]})]})]})}),(0,j.jsxs)(`div`,{className:`tc-body`,children:[(0,j.jsxs)(`nav`,{className:`tc-nav`,children:[(0,j.jsx)(`p`,{className:`tc-nav-title`,children:`Contents`}),(0,j.jsx)(`ul`,{children:e.map(e=>(0,j.jsx)(`li`,{children:(0,j.jsxs)(`a`,{href:`#section-${e.number}`,children:[(0,j.jsx)(`span`,{className:`nav-num`,children:e.number}),e.title]})},e.number))})]}),(0,j.jsxs)(`div`,{className:`tc-sections`,children:[e.map(e=>(0,j.jsxs)(`div`,{className:`tc-section`,id:`section-${e.number}`,children:[(0,j.jsxs)(`div`,{className:`tc-section-header`,children:[(0,j.jsx)(`span`,{className:`tc-section-num`,children:e.number}),(0,j.jsx)(`h2`,{children:e.title})]}),(0,j.jsxs)(`div`,{className:`tc-section-content`,children:[e.content&&e.content,e.subsections&&e.subsections.map((e,t)=>(0,j.jsxs)(`div`,{className:`tc-subsection`,children:[(0,j.jsx)(`h3`,{children:e.title}),e.content&&(0,j.jsx)(`p`,{children:e.content}),e.intro&&(0,j.jsx)(`p`,{children:e.intro}),e.list&&(0,j.jsx)(`ul`,{children:e.list.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.notIntro&&(0,j.jsx)(`p`,{children:e.notIntro}),e.notList&&(0,j.jsx)(`ul`,{className:`list-not`,children:e.notList.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.extra&&(0,j.jsx)(`p`,{children:e.extra})]},t))]})]},e.number)),(0,j.jsx)(`div`,{className:`tc-acceptance`,children:(0,j.jsxs)(`p`,{children:[(0,j.jsx)(`strong`,{children:`Acceptance of Terms —`}),` By using our Site, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.`]})})]})]})]})]})}function br(){let e=[{number:`01`,title:`Introduction`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`Welcome to Impulse ("Provider," "we," "us," "our"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains:`}),(0,j.jsxs)(`ul`,{children:[(0,j.jsx)(`li`,{children:`What information we collect`}),(0,j.jsx)(`li`,{children:`How we use your information`}),(0,j.jsx)(`li`,{children:`Who we share it with`}),(0,j.jsx)(`li`,{children:`Your rights regarding your information`})]}),(0,j.jsx)(`p`,{children:`This Privacy Policy applies to our website at www.impulsegrowth.online (the "Site") and any services offered through the Site.`}),(0,j.jsx)(`p`,{children:`By using our Site, you agree to the collection and use of your information as described in this Privacy Policy.`})]})},{number:`02`,title:`Information We Collect`,subsections:[{title:`2.1 Information You Provide to Us`,intro:`We collect information you voluntarily provide when you:`,list:[`Contact us via our contact form`,`Sign up for our services`,`Communicate with us via email, WhatsApp, or phone`,`Request a demo or free trial`]},{title:`2.2 Information We Collect Automatically`,intro:`When you visit our Site, we may automatically collect:`,table:{headers:[`Category`,`Examples`,`Purpose`],rows:[[`Technical data`,`IP address, browser type, device type`,`To improve our Site performance`],[`Usage data`,`Pages visited, time spent, links clicked`,`To understand how visitors use our Site`],[`Location data`,`General location (city/country level)`,`To tailor content to your region`]]}},{title:`2.3 Information We Do NOT Collect`,notIntro:`We do NOT collect:`,notList:[`Credit card or bank account numbers`,`Member payment information (this is handled directly by Whish)`,`Sensitive personal data (health, religion, political views)`,`Biometric data or government IDs`]}]},{number:`03`,title:`How We Use Your Information`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`We use your information for the following purposes:`}),(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`th`,{children:`Purpose`}),(0,j.jsx)(`th`,{children:`Legal Basis`}),(0,j.jsx)(`th`,{children:`Example`})]})}),(0,j.jsxs)(`tbody`,{children:[(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To respond to your inquiries`}),(0,j.jsx)(`td`,{children:`Legitimate interest`}),(0,j.jsx)(`td`,{children:`Replying to your contact form message`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To provide our services`}),(0,j.jsx)(`td`,{children:`Contract performance`}),(0,j.jsx)(`td`,{children:`Building your gym website`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To process payments (revenue share)`}),(0,j.jsx)(`td`,{children:`Contract performance`}),(0,j.jsx)(`td`,{children:`Tracking member signups for 10%/20% calculation`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To send service updates`}),(0,j.jsx)(`td`,{children:`Legitimate interest`}),(0,j.jsx)(`td`,{children:`Notifying you of website maintenance`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To improve our Site`}),(0,j.jsx)(`td`,{children:`Legitimate interest`}),(0,j.jsx)(`td`,{children:`Analyzing which pages visitors use most`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`To comply with legal obligations`}),(0,j.jsx)(`td`,{children:`Legal obligation`}),(0,j.jsx)(`td`,{children:`Responding to court orders or lawful requests`})]})]})]})})]})},{number:`04`,title:`Cookies and Tracking Technologies`,subsections:[{title:`4.1 What Are Cookies?`,content:`Cookies are small text files stored on your device when you visit a website. They help websites remember your preferences and understand how you use the Site.`},{title:`4.2 Types of Cookies We Use`,tableData:{headers:[`Type`,`Purpose`,`Duration`],rows:[[`Essential cookies`,`Required for the Site to function properly`,`Session`],[`Preference cookies`,`Remember your preferences (e.g., language)`,`Up to 12 months`],[`Analytics cookies`,`Help us understand how visitors use our Site`,`Up to 24 months`]]}},{title:`4.3 Managing Cookies`,intro:`You can control cookies through your browser settings. You may choose to:`,list:[`Accept all cookies`,`Reject all cookies`,`Delete existing cookies`,`Be notified when a cookie is set`],extra:`Note: Rejecting essential cookies may prevent our Site from functioning properly.`},{title:`4.4 Third-Party Cookies`,intro:`We may use third-party services that set their own cookies:`,tableData:{headers:[`Service`,`Purpose`,`Privacy Link`],rows:[[`Google Analytics`,`Website analytics`,`policies.google.com/privacy`],[`Whish`,`Payment processing (on gym websites, not our main Site)`,`Whish Privacy Policy`]]}}]},{number:`05`,title:`How We Share Your Information`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsxs)(`p`,{children:[`We do `,(0,j.jsx)(`strong`,{children:`not`}),` sell, rent, or trade your personal information to third parties.`]}),(0,j.jsx)(`p`,{children:`We may share your information in the following limited circumstances:`}),(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`th`,{children:`Recipient`}),(0,j.jsx)(`th`,{children:`When we share`}),(0,j.jsx)(`th`,{children:`What we share`})]})}),(0,j.jsxs)(`tbody`,{children:[(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Service providers`}),(0,j.jsx)(`td`,{children:`To help us operate our business (e.g., hosting, analytics)`}),(0,j.jsx)(`td`,{children:`Limited to what is necessary`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Legal authorities`}),(0,j.jsx)(`td`,{children:`When required by law or to protect our rights`}),(0,j.jsx)(`td`,{children:`As required by law`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Whish (if you become a client)`}),(0,j.jsx)(`td`,{children:`To integrate payment processing for your gym`}),(0,j.jsx)(`td`,{children:`Your gym name and business information`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Successors`}),(0,j.jsx)(`td`,{children:`If our business is sold or merged`}),(0,j.jsx)(`td`,{children:`All data (you will be notified)`})]})]})]})}),(0,j.jsx)(`p`,{children:`Our Site may contain links to third-party websites (e.g., Whish). We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies.`})]})},{number:`06`,title:`Data Retention`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`We keep your personal information only as long as necessary for the purposes described in this Privacy Policy.`}),(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`th`,{children:`Type of Data`}),(0,j.jsx)(`th`,{children:`Retention Period`})]})}),(0,j.jsxs)(`tbody`,{children:[(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Contact form inquiries`}),(0,j.jsx)(`td`,{children:`12 months after last contact`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Client data (gym owners who sign up)`}),(0,j.jsx)(`td`,{children:`Duration of our agreement + 24 months`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`Website analytics data`}),(0,j.jsx)(`td`,{children:`24 months`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:`WhatsApp/email conversations`}),(0,j.jsx)(`td`,{children:`12 months after last message`})]})]})]})}),(0,j.jsx)(`p`,{children:`After the retention period ends, we will delete or anonymize your information.`})]})},{number:`07`,title:`Data Security`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`We take reasonable measures to protect your information from unauthorized access, alteration, disclosure, or destruction.`}),(0,j.jsx)(`p`,{children:(0,j.jsx)(`strong`,{children:`Our security measures include:`})}),(0,j.jsxs)(`ul`,{children:[(0,j.jsx)(`li`,{children:`SSL encryption on our website`}),(0,j.jsx)(`li`,{children:`Secure hosting environment`}),(0,j.jsx)(`li`,{children:`Limited access to personal data (only the business owner)`}),(0,j.jsx)(`li`,{children:`Regular software updates`})]}),(0,j.jsx)(`p`,{children:`However, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security. You use our Site at your own risk.`})]})},{number:`08`,title:`Your Rights`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`Depending on your location, you may have the following rights regarding your personal information:`}),(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`th`,{children:`Right`}),(0,j.jsx)(`th`,{children:`What it means`})]})}),(0,j.jsxs)(`tbody`,{children:[(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to access`})}),(0,j.jsx)(`td`,{children:`You can request a copy of the information we hold about you`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to correction`})}),(0,j.jsx)(`td`,{children:`You can ask us to correct inaccurate or incomplete information`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to deletion`})}),(0,j.jsx)(`td`,{children:`You can ask us to delete your information (subject to legal obligations)`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to restrict processing`})}),(0,j.jsx)(`td`,{children:`You can ask us to limit how we use your information`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to data portability`})}),(0,j.jsx)(`td`,{children:`You can request a copy of your information in a machine-readable format`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to object`})}),(0,j.jsx)(`td`,{children:`You can object to certain types of processing (e.g., marketing)`})]}),(0,j.jsxs)(`tr`,{children:[(0,j.jsx)(`td`,{children:(0,j.jsx)(`strong`,{children:`Right to withdraw consent`})}),(0,j.jsx)(`td`,{children:`You can withdraw consent where we rely on consent as the legal basis`})]})]})]})}),(0,j.jsx)(`p`,{children:`To exercise any of these rights, contact us at:`}),(0,j.jsxs)(`div`,{className:`contact-block`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Email`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`mailto:impulsegrowthagency@gmail.com`,children:`impulsegrowthagency@gmail.com`})})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Phone`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`tel:+96103171726`,children:`03 171 726`})})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`WhatsApp`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`tel:+96181239350`,children:`81 239 350`})})]})]}),(0,j.jsx)(`p`,{style:{marginTop:`1rem`},children:`We will respond to your request within 30 days.`})]})},{number:`09`,title:`Children's Privacy`,content:(0,j.jsx)(j.Fragment,{children:(0,j.jsxs)(`p`,{children:[`Our Site and services are`,` `,(0,j.jsx)(`strong`,{children:`not intended for individuals under 18 years old`}),`. We do not knowingly collect information from children. If you believe a child has provided us with personal information, please contact us, and we will delete it.`]})})},{number:`10`,title:`International Data Transfers`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`Our business is based in Lebanon. If you access our Site from outside Lebanon, your information may be transferred to, stored, and processed in Lebanon.`}),(0,j.jsx)(`p`,{children:`By using our Site, you consent to this transfer. We will take reasonable steps to ensure your information is treated securely.`})]})},{number:`11`,title:`Your Rights Under Specific Laws`,subsections:[{title:`11.1 If You Are in the European Union (GDPR)`,intro:`If you are in the EU, you have additional rights under the General Data Protection Regulation (GDPR):`,list:[`You have the right to lodge a complaint with your local data protection authority`,`We rely on legitimate interest as the legal basis for most processing`,`You can withdraw consent at any time (where consent is the basis)`]},{title:`11.2 If You Are in California (CCPA)`,intro:`If you are a California resident, the California Consumer Privacy Act (CCPA) gives you additional rights:`,list:[`Right to know what personal information we collect`,`Right to request deletion of your personal information`,`Right to opt out of the sale of your personal information (we do not sell your information)`,`Right to non-discrimination for exercising your rights`]}]},{number:`12`,title:`Changes to This Privacy Policy`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`We may update this Privacy Policy from time to time. If we make material changes, we will:`}),(0,j.jsxs)(`ul`,{children:[(0,j.jsx)(`li`,{children:`Post the updated policy on this page`}),(0,j.jsx)(`li`,{children:`Update the "Last Updated" date at the top`}),(0,j.jsx)(`li`,{children:`Notify you via email or WhatsApp (if we have your contact information)`})]}),(0,j.jsx)(`p`,{children:`Your continued use of our Site after changes constitutes acceptance of the new Privacy Policy.`})]})},{number:`13`,title:`Contact Information`,content:(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`p`,{children:`If you have any questions about this Privacy Policy or how we handle your information, please contact us:`}),(0,j.jsxs)(`div`,{className:`contact-block`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Provider`}),(0,j.jsx)(`strong`,{children:`David Ghanem`})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Business`}),(0,j.jsx)(`strong`,{children:`Impulse`})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Email`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`mailto:impulsegrowthagency@gmail.com`,children:`impulsegrowthagency@gmail.com`})})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`Phone`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`tel:+96103171726`,children:`03 171 726`})})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`span`,{children:`WhatsApp`}),(0,j.jsx)(`strong`,{children:(0,j.jsx)(`a`,{href:`tel:+96181239350`,children:`81 239 350`})})]})]})]})},{number:`14`,title:`Acceptance of This Privacy Policy`,content:(0,j.jsx)(j.Fragment,{children:(0,j.jsx)(`p`,{children:`By using our Site, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.`})})}];return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(`style`,{children:`
+        .pp-page {
+          background: var(--black);
+          color: var(--white);
+          font-family: "DM Sans", sans-serif;
+          min-height: 100vh;
+        }
+
+        .pp-hero {
+          border-bottom: 1px solid var(--border);
+          padding: 7rem 5% 4rem;
+        }
+
+        .pp-hero-inner {
+          max-width: 1080px;
+          margin: 0 auto;
+        }
+
+        .pp-label {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          color: var(--orange);
+          margin-bottom: 1.5rem;
+        }
+
+        .pp-label::before {
+          content: "";
+          display: block;
+          width: 20px;
+          height: 1px;
+          background: var(--orange);
+        }
+
+        .pp-hero h1 {
+          font-family: "Syne", sans-serif;
+          font-size: clamp(2.5rem, 6vw, 4.5rem);
+          font-weight: 800;
+          letter-spacing: -0.04em;
+          line-height: 1;
+          margin-bottom: 1.5rem;
+        }
+
+        .pp-hero h1 span {
+          color: var(--orange);
+        }
+
+        .pp-meta {
+          display: flex;
+          gap: 2rem;
+          flex-wrap: wrap;
+        }
+
+        .pp-meta-item {
+          font-size: 0.8rem;
+          color: var(--muted);
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+        }
+
+        .pp-meta-item strong {
+          color: rgba(255,255,255,0.6);
+          font-weight: 500;
+          margin-left: 0.4rem;
+        }
+
+        .pp-body {
+          max-width: 1080px;
+          margin: 0 auto;
+          padding: 5rem 5%;
+          display: grid;
+          grid-template-columns: 260px 1fr;
+          gap: 4rem;
+          align-items: start;
+        }
+
+        .pp-nav {
+          position: sticky;
+          top: 2rem;
+        }
+
+        .pp-nav-title {
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          color: var(--muted);
+          margin-bottom: 1rem;
+        }
+
+        .pp-nav ul {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 0.15rem;
+        }
+
+        .pp-nav a {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          font-size: 0.8rem;
+          color: rgba(255,255,255,0.35);
+          text-decoration: none;
+          padding: 0.4rem 0;
+          transition: color 0.2s;
+          line-height: 1.3;
+        }
+
+        .pp-nav a:hover {
+          color: var(--orange);
+        }
+
+        .pp-nav a .nav-num {
+          font-family: "Syne", sans-serif;
+          font-size: 0.65rem;
+          color: var(--orange);
+          opacity: 0.5;
+          min-width: 18px;
+        }
+
+        .pp-nav a:hover .nav-num {
+          opacity: 1;
+        }
+
+        .pp-sections {
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+        }
+
+        .pp-section {
+          padding: 3rem 0;
+          border-bottom: 1px solid var(--border);
+        }
+
+        .pp-section:last-child {
+          border-bottom: none;
+        }
+
+        .pp-section-header {
+          display: flex;
+          align-items: baseline;
+          gap: 1rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .pp-section-num {
+          font-family: "Syne", sans-serif;
+          font-size: 0.7rem;
+          font-weight: 800;
+          color: var(--orange);
+          opacity: 0.6;
+          letter-spacing: 0.05em;
+          min-width: 24px;
+        }
+
+        .pp-section h2 {
+          font-family: "Syne", sans-serif;
+          font-size: 1.3rem;
+          font-weight: 800;
+          letter-spacing: -0.02em;
+          color: var(--white);
+        }
+
+        .pp-section-content {
+          padding-left: 2.5rem;
+        }
+
+        .pp-section-content p {
+          font-size: 0.95rem;
+          color: rgba(255,255,255,0.65);
+          line-height: 1.8;
+          margin-bottom: 1rem;
+        }
+
+        .pp-section-content p:last-child {
+          margin-bottom: 0;
+        }
+
+        .pp-section-content ul {
+          list-style: none;
+          margin: 0.75rem 0 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .pp-section-content ul li {
+          font-size: 0.9rem;
+          color: rgba(255,255,255,0.6);
+          line-height: 1.6;
+          padding-left: 1.25rem;
+          position: relative;
+        }
+
+        .pp-section-content ul li::before {
+          content: "—";
+          position: absolute;
+          left: 0;
+          color: var(--orange);
+          font-size: 0.8rem;
+          opacity: 0.7;
+        }
+
+        .pp-section-content ul.list-not li::before {
+          content: "✕";
+          font-size: 0.65rem;
+          top: 0.1em;
+        }
+
+        .pp-section-content strong {
+          color: rgba(255,255,255,0.85);
+          font-weight: 500;
+        }
+
+        .pp-subsection {
+          margin-bottom: 2rem;
+        }
+
+        .pp-subsection:last-child {
+          margin-bottom: 0;
+        }
+
+        .pp-subsection h3 {
+          font-family: "Syne", sans-serif;
+          font-size: 0.85rem;
+          font-weight: 700;
+          color: rgba(255,255,255,0.5);
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+          margin-bottom: 0.75rem;
+        }
+
+        /* Tables */
+        .pp-table-wrap {
+          overflow-x: auto;
+          margin: 0.75rem 0 1rem;
+          border-radius: 8px;
+          border: 1px solid var(--border);
+        }
+
+        .pp-table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 0.85rem;
+        }
+
+        .pp-table thead tr {
+          background: rgba(255,255,255,0.04);
+        }
+
+        .pp-table th {
+          font-family: "Syne", sans-serif;
+          font-size: 0.7rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: rgba(255,255,255,0.4);
+          padding: 0.75rem 1rem;
+          text-align: left;
+          border-bottom: 1px solid var(--border);
+          white-space: nowrap;
+        }
+
+        .pp-table td {
+          padding: 0.75rem 1rem;
+          color: rgba(255,255,255,0.6);
+          border-bottom: 1px solid rgba(255,255,255,0.04);
+          line-height: 1.5;
+          vertical-align: top;
+        }
+
+        .pp-table td strong {
+          color: rgba(255,255,255,0.8);
+          font-weight: 500;
+        }
+
+        .pp-table tbody tr:last-child td {
+          border-bottom: none;
+        }
+
+        .pp-table tbody tr:hover td {
+          background: rgba(255,255,255,0.02);
+        }
+
+        /* Contact block */
+        .contact-block {
+          margin-top: 1.5rem;
+          border: 1px solid var(--border);
+          border-radius: 10px;
+          overflow: hidden;
+        }
+
+        .contact-block > div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.85rem 1.25rem;
+          border-bottom: 1px solid var(--border);
+          font-size: 0.875rem;
+        }
+
+        .contact-block > div:last-child {
+          border-bottom: none;
+        }
+
+        .contact-block span {
+          color: var(--muted);
+          text-transform: uppercase;
+          font-size: 0.7rem;
+          letter-spacing: 0.1em;
+        }
+
+        .contact-block strong {
+          color: rgba(255,255,255,0.85);
+          font-weight: 400;
+        }
+
+        .contact-block a {
+          color: var(--orange);
+          text-decoration: none;
+          transition: opacity 0.2s;
+        }
+
+        .contact-block a:hover {
+          opacity: 0.75;
+        }
+
+        /* Acceptance banner */
+        .pp-acceptance {
+          margin-top: 4rem;
+          padding: 2.5rem;
+          background: var(--near-black);
+          border: 1px solid var(--border);
+          border-left: 3px solid var(--orange);
+          border-radius: 10px;
+        }
+
+        .pp-acceptance p {
+          font-size: 0.9rem;
+          color: rgba(255,255,255,0.6);
+          line-height: 1.8;
+          margin: 0;
+        }
+
+        .pp-acceptance p strong {
+          color: var(--white);
+        }
+
+        @media (max-width: 860px) {
+          .pp-body {
+            grid-template-columns: 1fr;
+          }
+          .pp-nav {
+            display: none;
+          }
+        }
+
+        @media (max-width: 500px) {
+          .pp-hero {
+            padding: 5rem 5% 3rem;
+          }
+          .pp-section-content {
+            padding-left: 0;
+          }
+          .pp-table th,
+          .pp-table td {
+            padding: 0.6rem 0.75rem;
+            font-size: 0.8rem;
+          }
+        }
+      `}),(0,j.jsxs)(`div`,{className:`pp-page`,children:[(0,j.jsx)(`div`,{className:`pp-hero`,children:(0,j.jsxs)(`div`,{className:`pp-hero-inner`,children:[(0,j.jsx)(`div`,{className:`pp-label`,children:`Legal`}),(0,j.jsxs)(`h1`,{children:[`Privacy `,(0,j.jsx)(`span`,{children:`Policy`})]}),(0,j.jsxs)(`div`,{className:`pp-meta`,children:[(0,j.jsxs)(`div`,{className:`pp-meta-item`,children:[`For`,(0,j.jsx)(`strong`,{children:`Impulse Websites`})]}),(0,j.jsxs)(`div`,{className:`pp-meta-item`,children:[`Last updated`,(0,j.jsx)(`strong`,{children:`January 6, 2026`})]})]})]})}),(0,j.jsxs)(`div`,{className:`pp-body`,children:[(0,j.jsxs)(`nav`,{className:`pp-nav`,children:[(0,j.jsx)(`p`,{className:`pp-nav-title`,children:`Contents`}),(0,j.jsx)(`ul`,{children:e.map(e=>(0,j.jsx)(`li`,{children:(0,j.jsxs)(`a`,{href:`#pp-section-${e.number}`,children:[(0,j.jsx)(`span`,{className:`nav-num`,children:e.number}),e.title]})},e.number))})]}),(0,j.jsxs)(`div`,{className:`pp-sections`,children:[e.map(e=>(0,j.jsxs)(`div`,{className:`pp-section`,id:`pp-section-${e.number}`,children:[(0,j.jsxs)(`div`,{className:`pp-section-header`,children:[(0,j.jsx)(`span`,{className:`pp-section-num`,children:e.number}),(0,j.jsx)(`h2`,{children:e.title})]}),(0,j.jsxs)(`div`,{className:`pp-section-content`,children:[e.content&&e.content,e.subsections&&e.subsections.map((e,t)=>(0,j.jsxs)(`div`,{className:`pp-subsection`,children:[(0,j.jsx)(`h3`,{children:e.title}),e.content&&(0,j.jsx)(`p`,{children:e.content}),e.intro&&(0,j.jsx)(`p`,{children:e.intro}),e.list&&(0,j.jsx)(`ul`,{children:e.list.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.notIntro&&(0,j.jsx)(`p`,{children:e.notIntro}),e.notList&&(0,j.jsx)(`ul`,{className:`list-not`,children:e.notList.map((e,t)=>(0,j.jsx)(`li`,{children:e},t))}),e.tableData&&(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsx)(`tr`,{children:e.tableData.headers.map((e,t)=>(0,j.jsx)(`th`,{children:e},t))})}),(0,j.jsx)(`tbody`,{children:e.tableData.rows.map((e,t)=>(0,j.jsx)(`tr`,{children:e.map((e,t)=>(0,j.jsx)(`td`,{children:e},t))},t))})]})}),e.table&&(0,j.jsx)(`div`,{className:`pp-table-wrap`,children:(0,j.jsxs)(`table`,{className:`pp-table`,children:[(0,j.jsx)(`thead`,{children:(0,j.jsx)(`tr`,{children:e.table.headers.map((e,t)=>(0,j.jsx)(`th`,{children:e},t))})}),(0,j.jsx)(`tbody`,{children:e.table.rows.map((e,t)=>(0,j.jsx)(`tr`,{children:e.map((e,t)=>(0,j.jsx)(`td`,{children:e},t))},t))})]})}),e.extra&&(0,j.jsx)(`p`,{children:e.extra})]},t))]})]},e.number)),(0,j.jsx)(`div`,{className:`pp-acceptance`,children:(0,j.jsxs)(`p`,{children:[(0,j.jsx)(`strong`,{children:`Acceptance of Privacy Policy —`}),` By using our Site, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.`]})})]})]})]})]})}function xr(){return(0,j.jsx)(Dn,{children:(0,j.jsxs)(zt,{children:[(0,j.jsx)(Lt,{path:`/`,element:(0,j.jsx)(vr,{})}),(0,j.jsx)(Lt,{path:`/terms`,element:(0,j.jsx)(yr,{})}),(0,j.jsx)(Lt,{path:`/privacy`,element:(0,j.jsx)(br,{})})]})})}(0,v.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(_.StrictMode,{children:(0,j.jsx)(xr,{})}));
