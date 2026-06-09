@@ -22,12 +22,12 @@ export default function Guarantee({ onContactClick }) {
             Try It. Pay Nothing<br />If It Fails.
           </h2>
           <p style={{ marginTop: '1rem', fontSize: '1.05rem', color: 'rgba(255,255,255,0.65)', maxWidth: '520px', margin: '1rem auto 0', lineHeight: 1.8, fontWeight: 300 }}>
-            I build your website. I give you the QR code. If you don't get{' '}
+            We build your website. We give you the QR code. If you don't get{' '}
             <strong style={{ color: 'var(--white)' }}>at least one new member</strong>{' '}
-            through the site in 30 days, I walk away. You owe me nothing.{' '}
+            through the site in 30 days, We walk away. You owe us nothing.{' '}
             <strong style={{ color: 'var(--white)' }}>The website is yours to keep.</strong>
             <br /><br />
-            That's how confident I am.
+            That's how confident We are.
           </p>
           <button className="btn-primary" onClick={onContactClick}
             style={{ marginTop: '2rem', fontSize: '1rem', padding: '0.9rem 2rem' }}>

@@ -15,7 +15,7 @@ export default function Problem() {
             <p className="section-label">The Problem</p>
             <h2 className="section-title">You're Losing Members Every Day</h2>
             <p className="section-body">
-              Men walk by your gym motivated to join. That impulse lasts{' '}
+              People walk by your gym motivated to join. That impulse lasts{' '}
               <strong style={{ color: 'var(--white)' }}>2–3 minutes</strong>.
               Your current process makes them call, visit, or fill out a form.
               By the time they act — the impulse is dead. They walk away. You lose money.

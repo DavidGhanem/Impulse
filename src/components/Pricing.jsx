@@ -35,7 +35,7 @@ export default function Pricing() {
           Until You Get Members
         </h2>
         <p className="section-body">
-          Zero upfront. Zero monthly fee. I take 20% of every membership
+          Zero upfront. Zero monthly fee. We take 20% of every membership
           purchased through your website. That's it.
         </p>
 
@@ -61,7 +61,7 @@ export default function Pricing() {
               <table style={{ width: "100%", borderCollapse: "collapse" }}>
                 <thead>
                   <tr>
-                    {["Membership Price", "You Keep", "I Earn (20%)"].map(
+                    {["Membership Price", "You Keep", "We Earn (20%)"].map(
                       (h) => (
                         <th
                           key={h}
@@ -150,7 +150,7 @@ export default function Pricing() {
               <span style={{ color: "var(--success)", fontWeight: 600 }}>
                 $400/month
               </span>
-              . I make{" "}
+              . We make{" "}
               <span style={{ color: "var(--orange)", fontWeight: 600 }}>
                 $100/month
               </span>
@@ -271,7 +271,7 @@ export default function Pricing() {
                   color: "var(--success)",
                 },
                 {
-                  label: "I Earn (20%)",
+                  label: "We Earn (20%)",
                   val: "$" + fmt(iEarn),
                   color: "var(--orange)",
                 },

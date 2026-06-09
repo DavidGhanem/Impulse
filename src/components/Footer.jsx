@@ -274,7 +274,7 @@ export default function Footer() {
           gap: "0.5rem",
         }}
       >
-        <div>© 2025 Impulse · All rights reserved</div>
+        <div>© 2026 Impulse · All rights reserved</div>
         <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
           <Link
             to="/terms"

@@ -118,7 +118,7 @@ export default function Hero({ onContactClick }) {
             animation: "fadeUp 0.6s 0.2s ease both",
           }}
         >
-          I build websites that sell memberships. You pay 20% only when a member
+          We build websites that sell memberships. You pay 20% only when a member
           joins through the site. Zero risk. Zero monthly fees.
         </p>
 

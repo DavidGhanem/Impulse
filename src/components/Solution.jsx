@@ -1,7 +1,7 @@
 const cards = [
   { icon: '📱', title: 'Mobile-First Design', desc: 'Built for phones first. The impulse buyer standing outside your gym can sign up before they change their mind.' },
   { icon: '⚡', title: '60-Second Checkout', desc: 'Name, payment info, done. No tours. No callbacks. No waiting. The impulse window stays open long enough to close.' },
-  { icon: '🔲', title: 'QR Code Window Decal', desc: 'I give you a QR code for your front window. Foot traffic scans it, lands on your site, and joins — even at 11pm.' },
+  { icon: '🔲', title: 'QR Code Window Decal', desc: 'We give you a QR code for your front window. Foot traffic scans it, lands on your site, and joins — even at 11pm.' },
 ];
 
 export default function Solution() {
@@ -11,7 +11,7 @@ export default function Solution() {
         <p className="section-label">The Solution</p>
         <h2 className="section-title">A Website That Works<br />While You Sleep</h2>
         <p className="section-body">
-          I build gym websites with a one-tap "Join Now" button. Anyone can become a member in 60 seconds from their phone.
+          We build gym websites with a one-tap "Join Now" button. Anyone can become a member in 60 seconds from their phone.
           No phone call. No tour. No "I'll think about it." You wake up to new members.
         </p>
 

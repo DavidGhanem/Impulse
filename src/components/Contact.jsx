@@ -84,7 +84,7 @@ export default function Contact({ onSubmit }) {
                 fontWeight: 300,
               }}
             >
-              Fill in the form. I'll reach out within a few hours to schedule a
+              Fill in the form. We'll reach out within a few hours to schedule a
               15-minute call. No pressure. No pitch. Just a conversation.
             </p>
             <ul
@@ -99,7 +99,7 @@ export default function Contact({ onSubmit }) {
                 "No contract or upfront cost",
                 "Website live within days",
                 "30-day money-back guarantee",
-                "I handle all the tech",
+                "We handle all the tech",
                 "WhatsApp support, always",
               ].map((item) => (
                 <li
@@ -274,7 +274,7 @@ export default function Contact({ onSubmit }) {
                   color: "var(--muted)",
                 }}
               >
-                Or text me directly on WhatsApp:{" "}
+                Or text us directly on WhatsApp:{" "}
                 <a
                   href="https://wa.me/+96181239350"
                   target="_blank"
@@ -282,6 +282,15 @@ export default function Contact({ onSubmit }) {
                   style={{ color: "var(--success)", fontWeight: 600 }}
                 >
                   +96181239350
+                </a>
+                <pre> or </pre>
+                <a
+                  href="https://wa.me/+9613171726"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "var(--success)", fontWeight: 600 }}
+                >
+                  +9613171726 
                 </a>
               </div>
             </form>

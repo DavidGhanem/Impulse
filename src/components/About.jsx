@@ -10,7 +10,7 @@ export default function About() {
       }}
     >
       <div className="container reveal">
-        <p className="section-label">About Me</p>
+        <p className="section-label">About Us</p>
 
         <div
           className="about-inner"
@@ -24,7 +24,7 @@ export default function About() {
           {/* Copy Column */}
           <div>
             <h2 className="section-title">
-              I Only Win
+              We Only Win
               <br />
               When You Win
             </h2>
@@ -37,7 +37,7 @@ export default function About() {
                 fontWeight: 300,
               }}
             >
-              I saw gyms losing impulse buyers every single day. Good gyms,
+              We saw gyms losing impulse buyers every single day. Good gyms,
               well-run businesses — losing members simply because they had no
               fast way to sign people up on mobile.
             </p>
@@ -50,9 +50,9 @@ export default function About() {
                 fontWeight: 300,
               }}
             >
-              So I built a solution. A website with a one-tap join button, a QR
+              So we built a solution. A website with a one-tap join button, a QR
               code for the window, and zero upfront cost. If you don't get
-              members, I don't get paid. That's it.
+              members, We don't get paid. That's it.
             </p>
             <p
               style={{
@@ -63,7 +63,7 @@ export default function About() {
               }}
             >
               <strong style={{ color: "var(--white)" }}>
-                I'm local, I answer my phone, and I care about results.
+                We're local, We answer our phones, and we care about results.
               </strong>{" "}
               This isn't a corporate product — it's a partnership.
             </p>
@@ -182,7 +182,7 @@ export default function About() {
                   lineHeight: 1.6,
                 }}
               >
-                You only pay when someone joins through your site. My incentive
+                You only pay when someone joins through your site. Our incentive
                 is your growth.
               </div>
             </div>
