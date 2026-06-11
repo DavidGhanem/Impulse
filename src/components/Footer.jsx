@@ -16,7 +16,7 @@ const contactLinks = [
   },
 ];
 
-const activateSocials = false;
+const activateSocials = true;
 
 const socialLinks = [
   {
