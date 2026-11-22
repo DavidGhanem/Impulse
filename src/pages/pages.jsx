@@ -8,7 +8,7 @@ import Hero from "../components/Hero.jsx";
 import Problem from "../components/Problem.jsx";
 import Solution from "../components/Solution.jsx";
 import Pricing from "../components/Pricing.jsx";
-import HowItWorks from "../components/HowItWorks.jsx";
+import HowItWorks from "../components/Howitworks.jsx";
 import Included from "../components/Included.jsx";
 import Guarantee from "../components/Guarantee.jsx";
 import Demo from "../components/Demo.jsx";

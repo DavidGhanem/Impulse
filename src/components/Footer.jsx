@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
 const contactLinks = [
-  { href: "tel:+96103171726", label: "+961 03 171 726", icon: "📞" },
-  { href: "tel:+96181239350", label: "+961 81 239 350", icon: "📞" },
+  { href: "tel:+9613171726", label: "+961 03 171 726", icon: "📞" },
+  { href: "tel:+96181184874", label: "+961 81 184 874", icon: "📞" },
   {
     href: "mailto:impulsegrowthagency@gmail.com",
     label: "impulsegrowthagency@gmail.com",
     icon: "✉️",
   },
   {
-    href: "https://wa.me/96181239350",
+    href: "https://wa.me/96181184874",
     label: "WhatsApp",
     icon: "💬",
     target: "_blank",

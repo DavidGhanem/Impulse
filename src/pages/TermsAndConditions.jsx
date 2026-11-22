@@ -385,7 +385,7 @@ export default function TermsAndConditions() {
             <div>
               <span>Phone</span>
               <strong>
-                <a href="tel:+96103171726">03 171 726</a>
+                <a href="tel:+9613171726">03 171 726</a>
               </strong>
             </div>
           </div>
