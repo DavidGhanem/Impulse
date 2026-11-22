@@ -53,12 +53,6 @@ export default function Page() {
   const scrollToContact = () =>
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
 
-  const handleDemoJoin = () =>
-    showToast(
-      "⚡ That took 3 seconds. In real life, you'd be a fully enrolled member right now. Zero friction.",
-      5000,
-    );
-
   const handleFormSubmit = () =>
     showToast(
       "✅ Message received! I'll reach out within a few hours to schedule your free 15-minute call.",
@@ -79,7 +73,7 @@ export default function Page() {
         <HowItWorks />
         <Included />
         <Guarantee onContactClick={scrollToContact} />
-        <Demo onDemoJoin={handleDemoJoin} />
+        <Demo />
         <About />
         <Contact onSubmit={handleFormSubmit} />
       </main>

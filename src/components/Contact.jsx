@@ -281,16 +281,7 @@ export default function Contact({ onSubmit }) {
                   rel="noreferrer"
                   style={{ color: "var(--success)", fontWeight: 600 }}
                 >
-                  +96181184874
-                </a>
-                <pre> or </pre>
-                <a
-                  href="https://wa.me/9613171726"
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ color: "var(--success)", fontWeight: 600 }}
-                >
-                  +9613171726 
+                  +961 81 184 874
                 </a>
               </div>
             </form>

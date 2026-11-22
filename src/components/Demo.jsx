@@ -1,4 +1,7 @@
-export default function Demo({ onDemoJoin }) {
+const DEMO_URL = 'https://gmp-cyan.vercel.app/';
+const openDemo = () => window.open(DEMO_URL, '_blank', 'noopener,noreferrer');
+
+export default function Demo() {
   return (
     <section id="demo" style={{
       background: 'var(--near-black)',
@@ -37,7 +40,7 @@ export default function Demo({ onDemoJoin }) {
                     <div style={{ fontFamily: 'Syne, sans-serif', fontSize: '1.3rem', fontWeight: 800, color: 'var(--orange)' }}>$49/mo</div>
                     <div style={{ fontSize: '0.65rem', color: 'var(--muted)' }}>Full Access Membership</div>
                   </div>
-                  <button onClick={onDemoJoin} style={{
+                  <button onClick={openDemo} style={{
                     width: '100%', background: 'var(--orange)', color: 'var(--white)',
                     border: 'none', borderRadius: '10px', padding: '0.85rem',
                     fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '0.9rem',
@@ -69,7 +72,7 @@ export default function Demo({ onDemoJoin }) {
             </p>
             <a
               className="btn-primary"
-              href="https://gmp-cyan.vercel.app/"
+              href={DEMO_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{ marginTop: '1rem', display: 'inline-block', textDecoration: 'none' }}
