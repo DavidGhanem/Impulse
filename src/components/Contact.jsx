@@ -276,16 +276,16 @@ export default function Contact({ onSubmit }) {
               >
                 Or text us directly on WhatsApp:{" "}
                 <a
-                  href="https://wa.me/+96181239350"
+                  href="https://wa.me/96181184874"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: "var(--success)", fontWeight: 600 }}
                 >
-                  +96181239350
+                  +96181184874
                 </a>
                 <pre> or </pre>
                 <a
-                  href="https://wa.me/+9613171726"
+                  href="https://wa.me/9613171726"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: "var(--success)", fontWeight: 600 }}

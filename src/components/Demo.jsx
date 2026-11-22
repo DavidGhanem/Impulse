@@ -67,9 +67,15 @@ export default function Demo({ onDemoJoin }) {
               No complicated forms. No phone calls. No tours required.{' '}
               <strong style={{ color: 'var(--white)' }}>Just a motivated person and a button.</strong>
             </p>
-            <button className="btn-primary" onClick={onDemoJoin} style={{ marginTop: '1rem' }}>
+            <a
+              className="btn-primary"
+              href="https://gmp-cyan.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ marginTop: '1rem', display: 'inline-block', textDecoration: 'none' }}
+            >
               Tap to Try the Demo →
-            </button>
+            </a>
           </div>
         </div>
       </div>

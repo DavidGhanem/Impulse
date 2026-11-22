@@ -103,7 +103,7 @@ export default function About() {
                 }}
               >
                 <a
-                  href="tel:+96103171726"
+                  href="tel:+9613171726"
                   style={{
                     display: "flex",
                     alignItems: "center",
@@ -120,7 +120,7 @@ export default function About() {
                   📞 +961 03 171 726
                 </a>
                 <a
-                  href="https://wa.me/96103171726"
+                  href="https://wa.me/9613171726"
                   target="_blank"
                   rel="noreferrer"
                   style={{

@@ -418,13 +418,13 @@ export default function PrivacyPolicy() {
             <div>
               <span>Phone</span>
               <strong>
-                <a href="tel:+96103171726">03 171 726</a>
+                <a href="tel:+9613171726">03 171 726</a>
               </strong>
             </div>
             <div>
               <span>WhatsApp</span>
               <strong>
-                <a href="tel:+96181239350">81 239 350</a>
+                <a href="tel:+96181184874">81 184 874</a>
               </strong>
             </div>
           </div>
@@ -546,13 +546,13 @@ export default function PrivacyPolicy() {
             <div>
               <span>Phone</span>
               <strong>
-                <a href="tel:+96103171726">03 171 726</a>
+                <a href="tel:+9613171726">03 171 726</a>
               </strong>
             </div>
             <div>
               <span>WhatsApp</span>
               <strong>
-                <a href="tel:+96181239350">81 239 350</a>
+                <a href="tel:+96181184874">81 184 874</a>
               </strong>
             </div>
           </div>
