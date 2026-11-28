@@ -26,12 +26,14 @@ export default function TermsAndConditions() {
       content: (
         <>
           <p>
-            We build custom websites for gyms and fitness studios. Our websites
-            include a one-tap membership purchase button ("Join Now" button)
-            integrated with the Whish payment gateway. We operate on a
-            revenue-share model: we charge no upfront fees and instead earn a
-            percentage (10% or 20%, depending on your selected plan) of
-            membership payments processed through the website we build for you.
+            We build and operate a gym management platform — websites,
+            membership management, payments, and reporting — for gyms and
+            fitness studios. Our sites include a one-tap membership purchase
+            button ("Join Now" button) integrated with the Whish payment
+            gateway. We operate on a flat subscription model: you pay a
+            one-time setup fee and a recurring monthly (or annual) platform
+            fee based on your selected plan. We do not take a percentage or
+            share of your membership revenue.
           </p>
           <p>Our services are available only to:</p>
           <ul>
@@ -70,38 +72,37 @@ export default function TermsAndConditions() {
       title: "Our Pricing Model",
       subsections: [
         {
-          title: "4.1 No Upfront Cost",
+          title: "4.1 One-Time Setup Fee",
           content:
-            "We charge no upfront fees for website design, development, or setup.",
+            "A one-time setup fee applies when you sign up, based on your selected plan. This covers onboarding, configuration, and getting your website and dashboard live.",
         },
         {
-          title: "4.2 Revenue Share",
+          title: "4.2 Monthly or Annual Subscription",
           content:
-            "We earn a percentage of membership payments processed through the website we build for you.",
+            "After setup, you pay a flat recurring fee for your plan — billed monthly, or annually at a discount. We do not take a percentage or share of your membership revenue, now or ever.",
         },
         {
-          title: "4.3 How Payment Works",
+          title: "4.3 How Billing Works",
           list: [
-            "Members pay your gym through Whish",
-            "You receive the membership payment",
-            "You pay us your revenue share within 7 days of receiving payment or what agreed for",
-            "Payment methods accepted: Whish transfer, bank transfer, or cash",
+            "Your subscription fee is billed directly by us on a recurring basis (monthly or annual, per your plan)",
+            "Members pay your gym through Whish — that money goes straight to you, never through us",
+            "Payment methods accepted for your subscription: Whish transfer, bank transfer, or card",
           ],
         },
         {
           title: "4.4 No Hidden Fees",
-          intro: "We do not charge:",
+          intro: "Beyond your plan's subscription fee, we do not charge:",
           list: [
-            "Monthly hosting fees",
+            "Extra hosting fees",
             "Maintenance fees",
-            "Setup fees",
-            "Cancellation fees (unless you choose the buyout option)",
+            "Cancellation fees",
+            "A cut of your membership revenue",
           ],
         },
         {
           title: "4.5 Third-Party Fees",
           content:
-            "You are responsible for all Whish transaction fees (typically 1–3% per transaction). We are not affiliated with Whish and have no control over their fees or policies.",
+            "You are responsible for all Whish transaction fees (typically 1–3% per transaction) on payments your members make to you. We are not affiliated with Whish and have no control over their fees or policies.",
         },
       ],
     },
@@ -278,7 +279,7 @@ export default function TermsAndConditions() {
           </p>
           <ul>
             <li>You breach these Terms</li>
-            <li>You fail to pay your revenue share for more than 30 days</li>
+            <li>You fail to pay your subscription fees for more than 30 days</li>
             <li>You attempt to circumvent our payment system</li>
             <li>We suspect fraudulent or illegal activity</li>
           </ul>

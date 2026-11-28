@@ -69,7 +69,7 @@ export default function Page() {
         <Hero onContactClick={scrollToContact} />
         <Problem />
         <Solution />
-        <Pricing />
+        <Pricing onContactClick={scrollToContact} />
         <HowItWorks />
         <Included />
         <Guarantee onContactClick={scrollToContact} />
