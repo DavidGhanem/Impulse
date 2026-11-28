@@ -1,5 +1,11 @@
 import { useState } from "react";
 
+// Seasonal promo: waives every plan's one-time setup fee. Toggle this off
+// (and nothing else) once the sale ends — the real setup fees below stay
+// intact as the normal price, this just overrides what's displayed/charged.
+const HOLIDAY_SALE_ACTIVE = true;
+const HOLIDAY_SALE_LABEL = "🎄 Christmas Sale — Setup Fees Waived";
+
 // Each tier only lists what it adds on top of the one before it — the card
 // itself says "Everything in X, plus:" so the inheritance reads naturally
 // instead of repeating every feature at every level.
@@ -118,6 +124,26 @@ export default function Pricing({ onContactClick }) {
           Pick the plan that fits your gym today, and grow into the next one
           whenever you're ready.
         </p>
+
+        {HOLIDAY_SALE_ACTIVE && (
+          <div
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              marginTop: "1.5rem",
+              background: "rgba(34,197,94,0.1)",
+              border: "1px solid rgba(34,197,94,0.3)",
+              color: "var(--success)",
+              padding: "0.5rem 1.1rem",
+              borderRadius: "999px",
+              fontSize: "0.85rem",
+              fontWeight: 700,
+            }}
+          >
+            {HOLIDAY_SALE_LABEL}
+          </div>
+        )}
 
         {/* Founding Partner banner */}
         <div
@@ -456,7 +482,18 @@ function PackageCard({ pkg, annual, onContactClick }) {
           marginTop: "0.5rem",
         }}
       >
-        + {prefix}${setup} one-time setup
+        {HOLIDAY_SALE_ACTIVE ? (
+          <>
+            <span style={{ textDecoration: "line-through", opacity: 0.6 }}>
+              + {prefix}${setup} setup
+            </span>{" "}
+            <span style={{ color: "var(--success)", fontWeight: 700 }}>
+              FREE
+            </span>
+          </>
+        ) : (
+          `+ ${prefix}$${setup} one-time setup`
+        )}
       </div>
 
       <div
