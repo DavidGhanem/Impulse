@@ -128,8 +128,8 @@ export default function Footer() {
               lineHeight: 1.6,
             }}
           >
-            Professional gym websites with zero upfront cost. Pay only when you
-            get new members.
+            A complete gym management platform — website, memberships, and
+            payments — for one flat monthly fee. No commission, ever.
           </p>
         </div>
 

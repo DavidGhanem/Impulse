@@ -24,9 +24,9 @@ export default function About() {
           {/* Copy Column */}
           <div>
             <h2 className="section-title">
-              We Only Win
+              We Built What
               <br />
-              When You Win
+              Gyms Were Missing
             </h2>
             <p
               style={{
@@ -50,9 +50,10 @@ export default function About() {
                 fontWeight: 300,
               }}
             >
-              So we built a solution. A website with a one-tap join button, a QR
-              code for the window, and zero upfront cost. If you don't get
-              members, We don't get paid. That's it.
+              So we built a complete platform — website, memberships, payments,
+              and reporting — for one flat monthly subscription. No commission,
+              no percentage of your revenue. Just a tool that works for your
+              gym every day.
             </p>
             <p
               style={{
@@ -173,7 +174,7 @@ export default function About() {
                   marginBottom: "0.4rem",
                 }}
               >
-                Zero upfront. 20% per member.
+                One flat monthly fee.
               </div>
               <div
                 style={{
@@ -182,8 +183,7 @@ export default function About() {
                   lineHeight: 1.6,
                 }}
               >
-                You only pay when someone joins through your site. Our incentive
-                is your growth.
+                Simple, predictable pricing — no revenue share, ever.
               </div>
             </div>
 
@@ -210,7 +210,7 @@ export default function About() {
                     color: "var(--orange)",
                   }}
                 >
-                  0%
+                  $0
                 </div>
                 <div
                   style={{
@@ -221,7 +221,7 @@ export default function About() {
                     marginTop: "0.25rem",
                   }}
                 >
-                  Risk to you
+                  Commission, ever
                 </div>
               </div>
               <div

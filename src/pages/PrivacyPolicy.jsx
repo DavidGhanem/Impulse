@@ -108,9 +108,9 @@ export default function PrivacyPolicy() {
                   <td>Building your gym website</td>
                 </tr>
                 <tr>
-                  <td>To process payments (revenue share)</td>
+                  <td>To bill your subscription</td>
                   <td>Contract performance</td>
-                  <td>Tracking member signups for 10%/20% calculation</td>
+                  <td>Processing your plan's monthly or annual payment</td>
                 </tr>
                 <tr>
                   <td>To send service updates</td>

@@ -96,9 +96,9 @@ export default function Contact({ onSubmit }) {
               }}
             >
               {[
-                "No contract or upfront cost",
+                "No long-term contract",
                 "Website live within days",
-                "30-day money-back guarantee",
+                "14-day trial for founding partners",
                 "We handle all the tech",
                 "WhatsApp support, always",
               ].map((item) => (
@@ -238,7 +238,7 @@ export default function Contact({ onSubmit }) {
                   cursor: status === "sending" ? "not-allowed" : "pointer",
                 }}
               >
-                {status === "sending" ? "Sending…" : "Start My Free Website →"}
+                {status === "sending" ? "Sending…" : "Get Started →"}
               </button>
 
               {status === "success" && (

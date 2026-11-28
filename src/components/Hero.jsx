@@ -68,7 +68,7 @@ export default function Hero({ onContactClick }) {
               animation: "pulse 2s infinite",
             }}
           />
-          Zero Risk Partnership
+          No Commission. Ever.
         </div>
 
         <h1
@@ -81,9 +81,9 @@ export default function Hero({ onContactClick }) {
             animation: "fadeUp 0.6s 0.1s ease both",
           }}
         >
-          Get a Professional
+          Run Your Gym.
           <br />
-          Gym Website.
+          Grow Your Members.
           <br />
           <span
             style={{
@@ -92,7 +92,7 @@ export default function Hero({ onContactClick }) {
               display: "inline-block",
             }}
           >
-            Pay Nothing Upfront.
+            One Flat Monthly Price.
             <span
               style={{
                 position: "absolute",
@@ -118,8 +118,9 @@ export default function Hero({ onContactClick }) {
             animation: "fadeUp 0.6s 0.2s ease both",
           }}
         >
-          We build websites that sell memberships. You pay 20% only when a member
-          joins through the site. Zero risk. Zero monthly fees.
+          A complete gym management platform — website, memberships, payments,
+          and more — for one flat monthly fee. No commission, no revenue share.
+          You keep everything you earn.
         </p>
 
         <div
@@ -148,10 +149,10 @@ export default function Hero({ onContactClick }) {
           }}
         >
           {[
-            ["0%", "Upfront Cost"],
-            ["60s", "To Join Online"],
-            ["20%", "Commission Only"],
-            ["30d", "Money-Back Guarantee"],
+            ["$0", "Commission Taken"],
+            ["$49", "Plans Starting At"],
+            ["14d", "Free Trial"],
+            ["100%", "Revenue Is Yours"],
           ].map(([num, label]) => (
             <div key={label}>
               <div
